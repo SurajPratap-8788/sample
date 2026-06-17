@@ -1,6 +1,6 @@
 resource_groups = {
   rg1 = {
-    name       = "rg-prodd"
+    name       = "rg-prod"
     location   = "centralus"
     managed_by = "admin-user"
     tags = {
