@@ -8,6 +8,15 @@ resource_groups = {
       owner       = "prod-team"
     }
   }
+  rg2 = {
+    name       = "rg-devd"
+    location   = "centralus"
+    managed_by = "admin-user"
+    tags = {
+      environment = "development"
+      owner       = "dev-team"
+    }
+  }
 }
 # virtual_networks = {
 #   vnet-prod = {
