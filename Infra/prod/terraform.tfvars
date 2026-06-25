@@ -9,7 +9,7 @@ resource_groups = {
     }
   }
   rg2 = {
-    name       = "rg-devd"
+    name       = "rg-devdd"
     location   = "centralus"
     managed_by = "admin-user"
     tags = {
